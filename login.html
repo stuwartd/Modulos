@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <main class="contenedor-login">
+        <form action="access.php" method="post">
+            <header>
+            <div class="img-container">
+                <img src="Media/Logo.png" alt="logo">
+            </div>
+                <h2 class="titulo-login">INICIAR SESION</h2>
+            </header>
+            <section class="grupo-input">
+                <input type="username" id="usuario" name="usuario" required>
+                <label for="usuario">Usuario</label>
+            </section>
+            <section class="grupo-input">
+                <input text="password" id="clave" name="clave" required>
+                <label for="contraseña">Contraseña</label>
+            </section>
+            <nav>
+                <a href="#" id="mensajeOlvidado" class="olvide-contraseña">¿Olvidaste tu contraseña?</a>
+            </nav>
+            <footer>
+                <button type="submit" class="boton-login">INICIAR SECION</button>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
